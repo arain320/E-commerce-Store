@@ -1,5 +1,5 @@
 import React from "react";
-import "./GoTop.scss"
+import "./GoTop.scss";
 
 const GoTop = () => {
   const goTop = () => {

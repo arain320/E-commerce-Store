@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const date = new Date().getFullYear();
-
   return (
     <>
       <div className="footer">
@@ -16,54 +15,54 @@ const Footer = () => {
             <div className="links">
               <div className="left row">
                 <li>
-                  <NavLink to="/">men</NavLink>
+                  <NavLink to="/products">men</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">kids</NavLink>
+                  <NavLink to="/products">women</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">women</NavLink>
+                  <NavLink to="/products">kidstoyz</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">facewash</NavLink>
+                  <NavLink to="/products">facewash</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">beautycream</NavLink>
+                  <NavLink to="/products">beautycream</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">hairproducts</NavLink>
+                  <NavLink to="/products">hairproduct</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">jacket</NavLink>
+                  <NavLink to="/products">jackets</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">shoes</NavLink>
+                  <NavLink to="/products">shoes</NavLink>
                 </li>
               </div>
               <div className="right row">
                 <li>
-                  <NavLink to="/">mobile</NavLink>
+                  <NavLink to="/products">mobile</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">laptop</NavLink>
+                  <NavLink to="/products">laptop</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">camera</NavLink>
+                  <NavLink to="/products">camera</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">smartTV</NavLink>
+                  <NavLink to="/products">smartTV</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">fastcharger</NavLink>
+                  <NavLink to="/products">fastcharger</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">handsfree</NavLink>
+                  <NavLink to="/products">handsfree</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">airpods</NavLink>
+                  <NavLink to="/products">airpods</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">watch</NavLink>
+                  <NavLink to="/products">watch</NavLink>
                 </li>
               </div>
             </div>
@@ -75,56 +74,56 @@ const Footer = () => {
               </div>
               <div className="facebook">
                 <li>
-                  <a href="">
+                  <a href="https://www.facebook.com">
                     <i className="fa-brands fa-facebook"></i>
                   </a>
                 </li>
               </div>
               <div className="whatsapp">
                 <li>
-                  <a href="">
+                  <a href="https://www.whatsapp.com">
                     <i className="fa-brands fa-whatsapp"></i>
                   </a>
                 </li>
               </div>
               <div className="twitter">
                 <li>
-                  <a href="">
+                  <a href="https://www.twitter.com">
                     <i className="fa-brands fa-twitter"></i>
                   </a>
                 </li>
               </div>
               <div className="dribbble">
                 <li>
-                  <a href="">
+                  <a href="https://www.dribbble.com">
                     <i className="fa-brands fa-dribbble"></i>
                   </a>
                 </li>
               </div>
               <div className="linkedin">
                 <li>
-                  <a href="">
+                  <a href="https://www.linkedin.com">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                 </li>
               </div>
               <div className="instagram">
                 <li>
-                  <a href="">
+                  <a href="https://www.instagram.com">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                 </li>
               </div>
               <div className="pinterest">
                 <li>
-                  <a href="">
+                  <a href="https://www.pinterest.com">
                     <i className="fa-brands fa-pinterest"></i>
                   </a>
                 </li>
               </div>
               <div className="youtube">
                 <li>
-                  <a href="">
+                  <a href="https://www.youtube.com">
                     <i className="fa-brands fa-youtube"></i>
                   </a>
                 </li>
@@ -138,36 +137,36 @@ const Footer = () => {
             <div className="links">
               <div className="left  row">
                 <li>
-                  <NavLink to="/">apple</NavLink>
+                  <NavLink to="/products">apple</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">huawei</NavLink>
+                  <NavLink to="/products">huawei</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">samsung</NavLink>
+                  <NavLink to="/products">samsung</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">canon</NavLink>
+                  <NavLink to="/products">canon</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">nike</NavLink>
+                  <NavLink to="/products">nike</NavLink>
                 </li>
               </div>
               <div className="right row">
                 <li>
-                  <NavLink to="/">nikon</NavLink>
+                  <NavLink to="/products">nikon</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">adidas</NavLink>
+                  <NavLink to="/products">adidas</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">xaiomi</NavLink>
+                  <NavLink to="/products">xiaomi</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">puma</NavLink>
+                  <NavLink to="/products">puma</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">haier</NavLink>
+                  <NavLink to="/products">haier</NavLink>
                 </li>
               </div>
             </div>

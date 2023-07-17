@@ -5,7 +5,8 @@ import Slider from "../../components/Slider/Slider";
 import Hero from "../../components/Hero/Hero";
 import Company from "../../components/Company/Company";
 import Product from "../../components/Product/Product";
-import Contact from "../../components/Contact/Contact";
+import Popular from "../../components/Popular/Popular";
+import Deal from "../../components/Deal/Deal";
 import GoTop from "../../components/goToTop/GoTop";
 import Footer from "../../components/Footer/Footer";
 
@@ -17,7 +18,8 @@ const Home = () => {
       <Hero />
       <Company />
       <Product />
-      <Contact/>
+      <Popular/>
+      <Deal/>
       <GoTop />
       <Footer />
     </>
